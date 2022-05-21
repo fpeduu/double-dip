@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    background: #FAFAFA;
+}
+
+header {
+    width: 100vw;
+}
+
+header #logo {
+    width: 16vw;
+    margin-left: 5vw;
+}
+
+header .search-bar {
+    height: 10vw;
+    margin-right: 5vw;
+}
+
+header .search-bar img {
+    width: .8rem;
+    margin: 0 .8rem
+}
+
+header .search-bar input {
+    height: 9vw;
+    display: none;
+    width: 50vw;
+}
+
+header .search-bar:hover img {
+    display: none;
+}
+
+header .search-bar:hover input {
+    visibility: visible;
+    display: block;
+}
+
+.cards {
+    padding-top: 10vh;
+    width: 100vw;
+
+    flex-direction: column;
+
+    margin: 6vh 0;
+}
+
+.card {
+    margin: 1vh;
+}
+
+.card-div2 {
+    flex-direction: row-reverse;
+}
+
+.bigcard {
+    height: 38vh;
+    width: 40vw;
+
+    padding: 0 1vh;
+}
+
+.smallcard {
+    height: 41vw;
+    width: 41vw;
+}
+
+.bigcard img {
+    height: 17vh;
+}
+
+.bigcard h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 0rem;
+
+    color: #292929;
+}
+
+.bigcard p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1.25rem;
+
+    color: #606060;
+}
+
+.bigcard .price p {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+
+    padding: .8vh;
+
+    align-items: flex-end;
+}
+
+.smallcard img {
+    height: 12vh;
+}
+
+
+footer .footer-logo {
+    display: none; 
+}
+
+footer {
+    flex-direction: column;
+}
+
+footer .social-medias {
+    width: 40vw;
+    margin-bottom: 1.5rem;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.1rem;
+
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.1rem;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.1rem;
+}

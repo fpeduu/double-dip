@@ -1,0 +1,220 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    background: #FAFAFA;
+}
+
+header {
+    padding: 3vh 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+
+    top: 0;
+    
+    background-color: rgba(255, 255, 255, 0.6);
+
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+header #logo {
+    width: 7vw;
+
+    margin-left: 16vw;
+}
+
+header .search-bar {
+    display: flex;
+    background: #FDFDFD;
+
+    justify-content: flex-start;
+    border: 0.5px solid rgba(96, 96, 96, 0.3);
+    border-radius: 5px;
+
+    margin-right: 16vw;
+}
+
+
+header .search-bar img {
+    width: 1rem;
+    margin: 0 1rem;
+}
+
+header .search-bar input {
+    width: 20vw;
+    height: 5.5vh;
+
+    border: 0;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.cards {
+    padding-top: 18vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+
+    margin: 6vh 0;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2vh;
+}
+
+.bigcard {
+    height: 56vh;
+    width: 30vh;
+
+    padding: 0 2vh;
+}
+
+.bigcard img {
+    height: 28.5vh;
+}
+
+.bigcard h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 0rem;
+
+    color: #292929;
+}
+
+.bigcard p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    color: #606060;
+}
+
+.bigcard .price {
+    display: flex;
+    width: 100%;
+}
+
+.bigcard .price p {
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 8px; 
+    padding: .5vh .8vh;
+
+    color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+
+    align-items: flex-end;
+}
+
+.smallcard {
+    height: 27vh;
+    width: 27vh;
+}
+
+.smallcard img {
+    height: 21.2vh;
+}
+
+footer {
+    margin: 0 2vw;
+
+    display: flex;
+    flex-direction: row;
+
+    background: #F2F2F2;
+
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5vh 0;
+}
+
+footer .social-medias {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social-medias .social-media {
+    width: 2.1rem;
+    height: 2.1rem;
+
+    border: 1.5px solid rgba(96, 96, 96, 0.3);    
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-logo img {
+    width: 3.5vw;
+}
+
+footer .author {
+    color: #292929;
+    font-size: 0.9rem;
+}
+
+/* Texto do input do header (cada navegador usa uma identificação diferente) */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
